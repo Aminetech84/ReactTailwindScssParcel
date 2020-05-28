@@ -2,7 +2,7 @@
 
 - This is a starter folder for projects  that would use React & React Dom , parcel, TailwindCSS and SCSS
 
-## Getting Started  
+### Getting Started  
 
 - Before we get started, you'll need to install Node and create
 a `package.json` for your project if you haven't already.
