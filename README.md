@@ -1,8 +1,9 @@
 # Documentation
 
-## This is a starter folder for projects  that would use React & React Dom , parcel, TailwindCSS and SCSS
+- This is a starter folder for projects  that would use React & React Dom , parcel, TailwindCSS and SCSS
 
-## Getting Started
+
+### Getting Started  
 
 - Before we get started, you'll need to install Node and create
 a `package.json` for your project if you haven't already.
@@ -14,7 +15,7 @@ npm init
 - Clone the repository
 
 ```sh
-git clone <https://github.com/Aminetech84/ReactTailwindScssParcel.git>
+git clone https://github.com/Aminetech84/ReactTailwindScssParcel.git
 ```
 
 - Install depandencies
@@ -41,6 +42,4 @@ npm run build
 git init
 ```
 
-### For more information about Parcel-bundler visit
-
-<https://parceljs.org/>
+### For more information about Parcel-bundler visit <https://parceljs.org/>
