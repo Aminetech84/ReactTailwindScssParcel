@@ -1,13 +1,16 @@
 {
   "name": "react_starter_kit",
-  "version": "0.0.1",
-  "description": "React starter kit with React and React Dom, TailwindCSS, SCSS and Parcel",
+  "version": "0.2.0",
+  "description": "React starter kit with React and React Dom, TailwindCSS, SCSS, gsap and Parcel",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "npm run watch:css && parcel index.html",
+    "build": "npm run watch:css && parcel build index.html",
+    "build:css": "postcss public/style/style.scss -o public/style/main.css",
+    "watch:css": "postcss public/style/style.scss -o public/style/main.css"
   },
   "keywords": [
+    "gsap",
     "scss",
     "css",
     "tailwind",
@@ -21,11 +24,16 @@
   "author": "Amine Ouldaouali",
   "license": "ISC",
   "dependencies": {
+    "gsap": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "tailwindcss": "latest"
+    "react-router-dom": "latest"
   },
   "devDependencies": {
-    "parcel-bundler": "latest"
+    "autoprefixer": "latest",
+    "parcel-bundler": "latest",
+    "postcss-cli": "latest",
+    "sass": "latest",
+    "tailwindcss": "latest"
   }
 }
